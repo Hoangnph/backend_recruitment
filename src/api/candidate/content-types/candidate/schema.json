@@ -48,11 +48,15 @@
       "type": "integer"
     },
     "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "cv_url": {
+      "type": "string"
     }
   }
 }
