@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "Partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vendor": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "gender_name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "checkin_code": {
+      "type": "string"
+    }
+  }
+}

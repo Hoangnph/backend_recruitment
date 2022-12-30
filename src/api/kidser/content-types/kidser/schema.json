@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kidsers",
+  "info": {
+    "singularName": "kidser",
+    "pluralName": "kidsers",
+    "displayName": "Kidser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "required": true,
+      "maxLength": 6,
+      "unique": true,
+      "minLength": 6
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female",
+        "na"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "department": {
+      "type": "string"
+    },
+    "checkin_code": {
+      "type": "string",
+      "required": true
+    },
+    "staff_type": {
+      "type": "string"
+    },
+    "work_place": {
+      "type": "string"
+    }
+  }
+}
