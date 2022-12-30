@@ -23,14 +23,6 @@
       "type": "string",
       "required": true
     },
-    "gender": {
-      "type": "enumeration",
-      "enum": [
-        "male",
-        "female",
-        "na"
-      ]
-    },
     "title": {
       "type": "string"
     },
@@ -53,6 +45,9 @@
       "type": "string"
     },
     "work_place": {
+      "type": "string"
+    },
+    "gender": {
       "type": "string"
     }
   }
