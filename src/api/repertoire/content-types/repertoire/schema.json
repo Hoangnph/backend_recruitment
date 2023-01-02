@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repertoires",
+  "info": {
+    "singularName": "repertoire",
+    "pluralName": "repertoires",
+    "displayName": "Repertoire"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    }
+  }
+}

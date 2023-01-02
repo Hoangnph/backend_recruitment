@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checkins",
+  "info": {
+    "singularName": "checkin",
+    "pluralName": "checkins",
+    "displayName": "Checkin"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "checkin_code": {
+      "type": "string",
+      "required": true
+    },
+    "kidser": {
+      "type": "string"
+    },
+    "checker": {
+      "type": "string"
+    },
+    "checked_time": {
+      "type": "datetime"
+    },
+    "event": {
+      "type": "string"
+    },
+    "attendee_type": {
+      "type": "string"
+    }
+  }
+}

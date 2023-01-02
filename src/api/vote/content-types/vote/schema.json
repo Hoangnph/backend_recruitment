@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "votes",
+  "info": {
+    "singularName": "vote",
+    "pluralName": "votes",
+    "displayName": "Vote"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "repertoire_id": {
+      "type": "integer"
+    },
+    "vote_by": {
+      "type": "string"
+    },
+    "vote_date": {
+      "type": "string"
+    }
+  }
+}

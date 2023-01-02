@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brand_staffs",
+  "info": {
+    "singularName": "brand-staff",
+    "pluralName": "brand-staffs",
+    "displayName": "Brand Staff"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "checkin_code": {
+      "type": "string"
+    },
+    "store": {
+      "type": "string"
+    }
+  }
+}
