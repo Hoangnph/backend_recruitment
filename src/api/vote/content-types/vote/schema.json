@@ -4,7 +4,8 @@
   "info": {
     "singularName": "vote",
     "pluralName": "votes",
-    "displayName": "Vote"
+    "displayName": "Vote",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -18,7 +19,10 @@
       "type": "string"
     },
     "vote_date": {
-      "type": "string"
+      "type": "datetime"
+    },
+    "is_special_prize": {
+      "type": "boolean"
     }
   }
 }
