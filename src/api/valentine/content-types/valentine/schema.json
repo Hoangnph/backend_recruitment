@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "valentines",
+  "info": {
+    "singularName": "valentine",
+    "pluralName": "valentines",
+    "displayName": "Valentine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kidser": {
+      "type": "string",
+      "required": true
+    },
+    "hobby": {
+      "type": "text"
+    },
+    "ideal_type": {
+      "type": "text"
+    },
+    "lucky_number": {
+      "type": "string"
+    },
+    "avatar_path": {
+      "type": "string"
+    }
+  }
+}
